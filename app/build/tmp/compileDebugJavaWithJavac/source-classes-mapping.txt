@@ -1,0 +1,5 @@
+com/example/securemessageapp/BuildConfig.java
+ com.example.securemessageapp.BuildConfig
+com/example/securemessageapp/MainActivity.java
+ com.example.securemessageapp.MainActivity
+ com.example.securemessageapp.MainActivity$1
