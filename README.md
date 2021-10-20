@@ -14,9 +14,13 @@ AddRoundKey – each byte of the state is combined with a byte of the round key 
 
 
 3.**9, 11 or 13 rounds**:
-⋅⋅*SubBytes – a non-linear substitution step where each byte is replaced with another according to a lookup table.
-⋅⋅*ShiftRows – a transposition step where the last three rows of the state are shifted cyclically a certain number of steps.
-⋅⋅*MixColumns – a linear mixing operation which operates on the columns of the state, combining the four bytes in each column.
+⋅SubBytes – a non-linear substitution step where each byte is replaced with another according to a lookup table.
+
+
+⋅ShiftRows – a transposition step where the last three rows of the state are shifted cyclically a certain number of steps.
+
+
+MixColumns – a linear mixing operation which operates on the columns of the state, combining the four bytes in each column.
 AddRoundKey
 
 4.**Final round (making 10, 12 or 14 rounds in total)**:
