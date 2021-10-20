@@ -26,7 +26,13 @@ MixColumns – a linear mixing operation which operates on the columns of the st
 AddRoundKey
 
 4.**Final round (making 10, 12 or 14 rounds in total)**:
+
+
 SubBytes
+
+
 ShiftRows
+
+
 AddRoundKey
  
